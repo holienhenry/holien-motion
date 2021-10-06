@@ -1,3 +1,30 @@
 /* =============
     Header
 ============= */
+header{
+    position: fixed;
+    background-color: $white;
+    width: 100%;
+    opacity: 40%;
+    z-index: 100;
+
+
+    >div{
+
+        display: grid;
+        grid-template-columns: 20% auto;
+        padding: 8px 16px;
+        
+        aside{
+            a{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 100px;
+                line-height: 21px;
+                display: inline-block;
+            }
+        }
+
+    }
+}

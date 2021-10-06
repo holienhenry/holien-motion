@@ -1,3 +1,28 @@
 /* =============
     Navigation
 ============= */
+nav{
+    // border: 1px solid red;
+    height: 100%;
+    ul{
+        height: 100%;
+        // border: 1px solid blue;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        li{
+            margin-left: 4vw;
+            a:link, a:visited{  
+                font-family: 'Roboto Slab', serif;
+                color:$blue;
+                transition: 0.25s;
+                font-size: rem-calc(18);
+                font-weight: 300;
+
+                &:hover, &:active{
+                    color: $purple;
+                }
+            }
+        }
+    }
+}

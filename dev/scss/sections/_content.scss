@@ -1,0 +1,60 @@
+#content{
+    display: grid;
+    grid-template-columns: auto 90% auto;
+    grid-template-areas: ". content .";
+    padding: 64px 0;
+
+    @include md{
+        padding: 100px 0;
+        grid-template-columns: auto 80% auto;
+    }
+
+    @include lg{
+        padding: 128px 0;
+    }
+
+    @include xl{
+        grid-template-columns: auto 1440px auto;
+    }
+
+    #p1{
+
+        height: 150px;
+        float: left;
+        width: 45%;
+    }
+
+    #p2{
+
+        height: 150px;
+        float: right;
+        width: 45%;
+    }
+
+    >div{
+        grid-area: content;
+
+        @include lg{
+            padding: 0 30%;
+        }
+        h1{
+            font-size: rem-calc(48);
+            margin-bottom: 20px;
+        }
+
+        h5{
+            font-size: rem-calc(12);
+            text-align:  flush right;
+            margin-top: 400px;
+
+        }
+
+        p{
+            font-size: rem-calc(18);
+            line-height: rem-calc(30);
+            text-align: justify;
+        }
+    }
+
+    
+}
