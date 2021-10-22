@@ -5,8 +5,10 @@ header{
     position: fixed;
     background-color: $white;
     width: 100%;
-    opacity: 40%;
+    opacity: 100%;
     z-index: 100;
+
+    font-size: 20px;
 
 
     >div{
@@ -15,16 +17,6 @@ header{
         grid-template-columns: 20% auto;
         padding: 8px 16px;
         
-        aside{
-            a{
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 100px;
-                line-height: 21px;
-                display: inline-block;
-            }
-        }
-
+        
     }
 }

@@ -357,6 +357,10 @@ figure {
   padding: 0;
 }
 
+body {
+  background-color: #FFFAF2;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -438,28 +442,21 @@ header {
   position: fixed;
   background-color: #fff;
   width: 100%;
-  opacity: 40%;
+  opacity: 100%;
   z-index: 100;
+  font-size: 20px;
 }
 header > div {
   display: grid;
   grid-template-columns: 20% auto;
   padding: 8px 16px;
 }
-header > div aside a {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 100px;
-  line-height: 21px;
-  display: inline-block;
-}
 
 /* =============
     Footer
 ============= */
 #hero {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
 }
 @media (min-width: 1440px) {
@@ -480,7 +477,7 @@ header > div aside a {
 }
 #hero > div article {
   align-items: center;
-  background-image: url("../img/hero/hero.jpg");
+  background-image: url("../img/hero/hero2.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -492,10 +489,10 @@ header > div aside a {
   text-align: center;
 }
 #hero > div article #hero-content h1 {
-  font-size: 10px;
+  font-size: 1px;
+  padding-bottom: 90px;
   font-weight: 400;
   line-height: 117px;
-  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 768px) {
   #hero > div article #hero-content h1 {
@@ -504,80 +501,6 @@ header > div aside a {
 }
 @media (min-width: 1024px) {
   #hero > div article #hero-content h1 {
-    font-size: 6.25rem;
+    font-size: 4.5rem;
   }
-}
-#hero > div article #hero-content h2 {
-  font-size: 1.875rem;
-  font-weight: 400;
-  line-height: 47px;
-  margin-top: -25px;
-  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
-}
-@media (min-width: 768px) {
-  #hero > div article #hero-content h2 {
-    font-size: 2.5rem;
-    margin-top: -20px;
-  }
-}
-@media (min-width: 1024px) {
-  #hero > div article #hero-content h2 {
-    font-size: 3.125rem;
-    margin-top: -15px;
-  }
-}
-
-#content {
-  display: grid;
-  grid-template-columns: auto 90% auto;
-  grid-template-areas: ". content .";
-  padding: 64px 0;
-}
-@media (min-width: 768px) {
-  #content {
-    padding: 100px 0;
-    grid-template-columns: auto 80% auto;
-  }
-}
-@media (min-width: 1024px) {
-  #content {
-    padding: 128px 0;
-  }
-}
-@media (min-width: 1440px) {
-  #content {
-    grid-template-columns: auto 1440px auto;
-  }
-}
-#content #p1 {
-  height: 150px;
-  float: left;
-  width: 45%;
-}
-#content #p2 {
-  height: 150px;
-  float: right;
-  width: 45%;
-}
-#content > div {
-  grid-area: content;
-}
-@media (min-width: 1024px) {
-  #content > div {
-    padding: 0 30%;
-  }
-}
-#content > div h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-#content > div h5 {
-  font-size: 0.75rem;
-  text-align: flush right;
-  margin-top: 400px;
-}
-#content > div p {
-  font-size: 1.125rem;
-  line-height: 1.875rem;
-  text-align: justify;
 }

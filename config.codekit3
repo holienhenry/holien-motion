@@ -39,12 +39,12 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero\/hero.jpg" : {
+    "\/deploy\/img\/hero\/hero2.jpg" : {
       "ft" : 16384,
       "iS" : 5249231,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero.jpg",
+      "oAP" : "\/deploy\/img\/hero\/hero2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -110,14 +110,6 @@
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
-    },
-    "\/dev\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 2
     },
     "\/dev\/index.kit" : {
       "cB" : 0,
