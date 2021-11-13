@@ -1,12 +1,29 @@
 /* =============
     Base
 ============= */
+.gs-dev-tools {
+
+    z-index: 1500;
+}
+
+.hide{
+    // visibility: hidden;
+    display: none;
+}
+
+.hide2{
+    // visibility: hidden;
+    display: none;
+}
+
+
 figure {
     margin: 0;
     padding: 0;
 }
 body{
     background-color: #FFFAF2;
+
 }
 ul {
     margin: 0;
